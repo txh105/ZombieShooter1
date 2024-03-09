@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c695298addc641830b1fffc4c9469e8, type: 3}
+  m_Name: 6.boss
+  m_EditorClassIdentifier:
+  Locked: 1
+  Color: {r: 1, g: 0, b: 0.08445263, a: 1}
+  BodyTexture: {fileID: 2800000, guid: 1519c5fddfe6f9b4bab83498e5255557, type: 3}
+  HandTexture: {fileID: 2800000, guid: 0f17fb07cef75f443915835deb923951, type: 3}
+  ItemName:
+  DeadFx: {fileID: 114610995726944167, guid: 79940da974cacda45a84c7fb604a8d95, type: 2}
+  DefaultSkin: 0
+  BodyTextureTest: {fileID: 0}
+  HandTextureTest: {fileID: 0}
+  ColorTest: {r: 0, g: 0, b: 0, a: 0}

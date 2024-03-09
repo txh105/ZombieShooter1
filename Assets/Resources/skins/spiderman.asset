@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c695298addc641830b1fffc4c9469e8, type: 3}
+  m_Name: spiderman
+  m_EditorClassIdentifier:
+  Locked: 1
+  Color: {r: 0.18431373, g: 0.24705884, b: 0.854902, a: 1}
+  BodyTexture: {fileID: 2800000, guid: cf45419bffe22d14cabc475626bc2c2e, type: 3}
+  HandTexture: {fileID: 2800000, guid: 442bbe261381cf246be271ee33dac58b, type: 3}
+  ItemName:
+  DeadFx: {fileID: 114610995726944167, guid: 79940da974cacda45a84c7fb604a8d95, type: 2}
+  DefaultSkin: 0
+  BodyTextureTest: {fileID: 0}
+  HandTextureTest: {fileID: 0}
+  ColorTest: {r: 0, g: 0, b: 0, a: 0}

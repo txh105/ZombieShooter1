@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d71de929ac84b33ae27b8d9d5fe9675, type: 3}
+  m_Name: DragonKick
+  m_EditorClassIdentifier:
+  Icon: {fileID: 21300000, guid: 5c780ac0e65585d4b83d72f948d7f5aa, type: 2}
+  AttackClip: {fileID: 7400000, guid: 70c9a2d95d698bb4d8c21e18693b8cd7, type: 2}
+  Animator: {fileID: 22100000, guid: d2bd6ef6335e43a4caf1e8aae9037f24, type: 2}
+  Dagger: 0

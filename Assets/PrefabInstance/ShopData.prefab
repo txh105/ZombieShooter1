@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1529813501543852
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4788931226652928}
+  - component: {fileID: 114646249990575763}
+  m_Layer: 0
+  m_Name: ShopData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4788931226652928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529813501543852}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114646249990575763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529813501543852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50355291ea32879c074686ea77570114, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterSkins:
+  - id: baby
+    image: baby
+    price: 0
+  - id: batman
+    image: batman
+    price: 500
+  - id: captain
+    image: captain
+    price: 1000
+  - id: wolverine
+    image: wolverine
+    price: 1500
+  - id: spiderman
+    image: spiderman
+    price: 99999
+  - id: hulk
+    image: hulk
+    price: 2500
+  - id: superman
+    image: superman
+    price: 3000
+  - id: ironman
+    image: ironman
+    price: 4000
+  - id: flash
+    image: flash
+    price: 5000
+  - id: megaman
+    image: megaman
+    price: 5500
+  - id: z_toilet
+    image: z_toilet
+    price: 6000
+  - id: z_banana
+    image: z_banana
+    price: 6500
+  - id: z_fox
+    image: z_fox
+    price: 7000
+  - id: z_pirate
+    image: z_pirate
+    price: 7500
+  - id: z_sheriff
+    image: z_sheriff
+    price: 8000
+  - id: z_meomeo
+    image: z_meomeo
+    price: 8500
+  - id: z_samurai
+    image: z_samurai
+    price: 9000
+  - id: z_ninja
+    image: z_ninja
+    price: 10000
+  weaponSkins:
+  - id: Default
+    image: Default
+    price: 0
+  - id: Batarang
+    image: batarang
+    price: 500
+  - id: Shield
+    image: shield
+    price: 1000
+  - id: Tinker
+    image: Tinker
+    price: 1500
+  - id: Saber
+    image: saber
+    price: 2000
+  - id: Thor
+    image: thor
+    price: 2500
+  - id: Nails
+    image: Nails
+    price: 3000
+  - id: BusterSword
+    image: BusterSword
+    price: 4000
+  - id: Twilight
+    image: Twilight
+    price: 5000
+  - id: Banana
+    image: Banana
+    price: 5500
+  - id: Bone
+    image: Bone
+    price: 6000
+  - id: Bread
+    image: Bread
+    price: 6500
+  - id: Leak
+    image: Leak
+    price: 7000
+  - id: Roast
+    image: Roast
+    price: 7500
+  - id: Saw
+    image: Saw
+    price: 8000
+  - id: Spoon
+    image: Spoon
+    price: 8500
+  - id: DiamondSword
+    image: DiamondSword
+    price: 9000
+  - id: Dagger
+    image: Dagger
+    price: 10000

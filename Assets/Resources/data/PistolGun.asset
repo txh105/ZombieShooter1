@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d71de929ac84b33ae27b8d9d5fe9675, type: 3}
+  m_Name: PistolGun
+  m_EditorClassIdentifier:
+  Icon: {fileID: 21300000, guid: 0bbd7e6236497884ab611d813083e68f, type: 2}
+  AttackClip: {fileID: 7400000, guid: 92dd132f22e52e349aaad219f2a5088f, type: 2}
+  Animator: {fileID: 22100000, guid: c0083933a63d0a349a68fe6a047b5aef, type: 2}
+  Dagger: 0

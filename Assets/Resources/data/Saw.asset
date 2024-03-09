@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d71de929ac84b33ae27b8d9d5fe9675, type: 3}
+  m_Name: Saw
+  m_EditorClassIdentifier:
+  Icon: {fileID: 21300000, guid: 5c7511b4494109b4db105e0100ad2d39, type: 2}
+  AttackClip: {fileID: 7400000, guid: f2ad38b67a19b664b907faf316b7c4a3, type: 2}
+  Animator: {fileID: 22100000, guid: f9cc8e18c041e8a4c8bb9ad8ed3e3e9c, type: 2}
+  Dagger: 0
