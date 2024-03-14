@@ -25,7 +25,8 @@ namespace BigRookGames.Weapons
         // --- VFX ---
         public ParticleSystem disableOnHit;
 
-
+        public float explosionRadius;
+        public float explosionForce;
         private void Update()
         {
             // --- Check to see if the target has been hit. We don't want to update the position if the target was hit ---
@@ -50,13 +51,13 @@ namespace BigRookGames.Weapons
             projectileMesh.enabled = false;
             targetHit = true;
             inFlightAudioSource.Stop();
-            foreach(Collider col in GetComponents<Collider>())
+            foreach (Collider col in GetComponents<Collider>())
             {
                 col.enabled = false;
             }
             disableOnHit.Stop();
 
-
+            BlowObject();
             // --- Destroy this object after 2 seconds. Using a delay because the particle system needs to finish ---
             Destroy(gameObject, 5f);
         }
@@ -71,6 +72,19 @@ namespace BigRookGames.Weapons
             GameObject newExplosion = Instantiate(rocketExplosion, transform.position, rocketExplosion.transform.rotation, null);
 
 
+        }
+        private void BlowObject()
+        {
+            Collider[] affectedObject = Physics.OverlapSphere(transform.position, explosionRadius);
+
+            for (int i = 0; i < affectedObject.Length; i++)
+            {
+                Rigidbody rigid = affectedObject[i].attachedRigidbody;
+                if (rigid)
+                {
+                    rigid.AddExplosionForce(explosionForce, transform.position, explosionRadius, 1, ForceMode.Impulse);
+                }
+            }
         }
     }
 }
