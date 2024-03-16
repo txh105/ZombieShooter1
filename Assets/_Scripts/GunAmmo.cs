@@ -1,17 +1,20 @@
 ﻿using BigRookGames.Weapons;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GunAmmo : MonoBehaviour
 {
     public int magSize;
     public GunfireController gun;
     private int _loadedAmmo;
+    public UnityEvent loadAmmoChanged;
     public int LoadedAmmo
     {
         get => _loadedAmmo;
         set
         {
             _loadedAmmo = value;
+            loadAmmoChanged.Invoke();
             if (_loadedAmmo <= 0)
             {
                 Reload();
